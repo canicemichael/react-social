@@ -7,37 +7,37 @@ export const Users = [
     {
         id:2,
         profilePicture: "assets/persons/2.jpg",
-        username: "Donf Tykdj"
+        username: "Jonas Isreal"
     },
     {
         id:3,
         profilePicture: "assets/persons/3.jpg",
-        username: "Donf Tykdj"
+        username: "Maguire Josh"
     },
     {
         id:4,
         profilePicture: "assets/persons/4.jpg",
-        username: "Donf Tykdj"
+        username: "Liverpool Fucks"
     },
     {
         id:5,
         profilePicture: "assets/persons/5.jpg",
-        username: "Donf Tykdj"
+        username: "Fatyd Hutd"
     },
     {
         id:6,
         profilePicture: "assets/persons/6.jpg",
-        username: "Donf Tykdj"
+        username: "Banana Ophd"
     },
     {
         id:7,
         profilePicture: "assets/persons/7.jpg",
-        username: "Donf Tykdj"
+        username: "Johfg Matt"
     },
     {
         id:8,
         profilePicture: "assets/persons/8.jpg",
-        username: "Donf Tykdj"
+        username: "Charms Lock"
     },
     {
         id:9,
