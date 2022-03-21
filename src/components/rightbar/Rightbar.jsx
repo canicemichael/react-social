@@ -5,6 +5,7 @@ import Online from '../online/Online';
 
 export default function Rightbar({profile}) {
 
+  const PF = "http://localhost:3000/assets/";
   const HomeRightbar = () => {
     return(
       <>
@@ -46,27 +47,27 @@ export default function Rightbar({profile}) {
       <h4 className='rightbarTitle'>User friends</h4>
       <div className="rightbarFollowings">
         <div className="rightbarFollowing">
-          <img src="assets/persons/1.jpg" alt="" className="rightbarFollowingImg" />
+          <img src={`${PF}persons/1.jpg`} alt="" className="rightbarFollowingImg" />
           <span className="rightbarFollowingName">John Carter</span>
         </div>
         <div className="rightbarFollowing">
-          <img src="assets/persons/2.jpg" alt="" className="rightbarFollowingImg" />
+          <img src={`${PF}persons/2.jpg`} alt="" className="rightbarFollowingImg" />
           <span className="rightbarFollowingName">John Carter</span>
         </div>
         <div className="rightbarFollowing">
-          <img src="assets/persons/3.jpg" alt="" className="rightbarFollowingImg" />
+          <img src={`${PF}persons/3.jpg`} alt="" className="rightbarFollowingImg" />
           <span className="rightbarFollowingName">John Carter</span>
         </div>
         <div className="rightbarFollowing">
-          <img src="assets/persons/4.jpg" alt="" className="rightbarFollowingImg" />
+          <img src={`${PF}persons/4.jpg`} alt="" className="rightbarFollowingImg" />
           <span className="rightbarFollowingName">John Carter</span>
         </div>
         <div className="rightbarFollowing">
-          <img src="assets/persons/5.jpg" alt="" className="rightbarFollowingImg" />
+          <img src={`${PF}persons/5.jpg`} alt="" className="rightbarFollowingImg" />
           <span className="rightbarFollowingName">John Carter</span>
         </div>
         <div className="rightbarFollowing">
-          <img src="assets/persons/6.jpg" alt="" className="rightbarFollowingImg" />
+          <img src={`${PF}persons/6.jpg`} alt="" className="rightbarFollowingImg" />
           <span className="rightbarFollowingName">John Carter</span>
         </div>
       </div>
