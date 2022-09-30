@@ -5,6 +5,7 @@ import Rightbar from "../../components/rightbar/Rightbar";
 import "./profile.css";
 
 export default function Profile() {
+  // const PF = "http://localhost:3000/assets/";
   return (
     <>
       <Topbar />
